@@ -19,7 +19,7 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm ci
 
       - name: Deploy
         env:
@@ -31,4 +31,4 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
 
         run: |
-          npx sst deploy --stage prod
+          pnpm sst deploy --stage prod
