@@ -1,0 +1,21 @@
+2023-10-15T23:54:11.116Z +17080ms [debug] Config loaded {"version":"2.29.2","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"supabase-next","region":"us-east-1","stage":"yy","ssmPrefix":"/sst/supabase-next/yy/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":217,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1697414034057.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":128}},"bytes":310}}},"paths":{"config":"/Users/yy/Desktop/project/supabase-next/sst.config.ts","root":"/Users/yy/Desktop/project/supabase-next","out":"/Users/yy/Desktop/project/supabase-next/.sst","artifacts":"/Users/yy/Desktop/project/supabase-next/.sst/artifacts"}}
+2023-10-15T23:54:16.143Z  +5027ms [debug] Using AWS profile 
+2023-10-15T23:54:16.301Z   +158ms [debug] Created AWS client IoTClient
+2023-10-15T23:54:16.301Z     +0ms [debug] Getting IoT endpoint
+2023-10-15T23:54:16.347Z    +46ms [debug] Synthesizing stacks...
+2023-10-15T23:54:16.366Z    +19ms [debug] Created AWS client STSClient
+2023-10-15T23:54:16.562Z   +196ms [debug] Using identity Account: 021330737383 User: AIDAQJ53JHDTTDZXDPNF2
+2023-10-15T23:54:16.564Z     +2ms [debug] Using IoT endpoint: a1qjim4dg5901v-ats.iot.us-east-1.amazonaws.com
+2023-10-15T23:54:16.564Z     +0ms [debug] Initializing bootstrap context
+2023-10-15T23:54:16.565Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-10-15T23:54:16.575Z    +10ms [debug] Generating types in /Users/yy/Desktop/project/supabase-next/.sst/types
+2023-10-15T23:54:16.734Z   +159ms [debug] Running 1 deferred tasks with concurrency: 7
+2023-10-15T23:54:17.009Z   +275ms [debug] Loaded bootstrap status
+2023-10-15T23:54:17.009Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-1x9v34ikcxnhj"}
+2023-10-15T23:54:17.011Z     +2ms [debug] Created AWS client S3Client
+2023-10-15T23:54:17.155Z   +144ms [debug] 
+2023-10-15T23:54:17.155Z     +0ms [debug] Loading v2 AWS SDK
+2023-10-15T23:54:17.155Z     +0ms [debug] Finished synthesizing
+2023-10-15T23:54:17.350Z   +195ms [debug] IoT connected
+2023-10-15T23:54:17.451Z   +101ms [debug] Fetching metadata for stack yy-supabase-next-Site failed {"name":"NoSuchBucket","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"QM77YW2RBMBP5398","extendedRequestId":"blVuU9ZbOzzP1zEhAobY3+FAoflhYo4reY6UqNVRtfEz9NkDNS03DwTGKKCs497n9GJis85k+9M=","attempts":1,"totalRetryDelay":0},"Code":"NoSuchBucket","BucketName":"sstbootstrap-useast124d14e4b-1x9v34ikcxnhj","RequestId":"QM77YW2RBMBP5398","HostId":"blVuU9ZbOzzP1zEhAobY3+FAoflhYo4reY6UqNVRtfEz9NkDNS03DwTGKKCs497n9GJis85k+9M=","message":"The specified bucket does not exist"}
+2023-10-15T23:54:17.454Z     +3ms [debug] Created AWS client SSMClient

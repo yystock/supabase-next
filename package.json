@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,7 +14,11 @@
     "@supabase/auth-ui-react": "^0.4.5",
     "@supabase/auth-ui-shared": "^0.1.7",
     "@supabase/supabase-js": "^2.36.0",
+    "axios": "^1.5.1",
+    "dayjs": "^1.11.10",
     "next": "latest",
+    "pino": "^8.16.0",
+    "pino-pretty": "^10.2.3",
     "react": "latest",
     "react-dom": "latest"
   },
@@ -28,6 +32,9 @@
     "postcss": "latest",
     "supabase": "^1.99.5",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "sst": "^2.29.2",
+    "aws-cdk-lib": "2.95.1",
+    "constructs": "10.2.69"
   }
 }
