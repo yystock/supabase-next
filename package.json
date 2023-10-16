@@ -27,14 +27,12 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
+    "aws-cdk-lib": "2.95.1",
+    "constructs": "10.2.69",
     "postcss": "latest",
+    "sst": "^2.29.2",
     "supabase": "^1.99.5",
     "tailwindcss": "latest",
-    "typescript": "latest",
-    "sst": "^2.29.2",
-    "aws-cdk-lib": "2.95.1",
-    "constructs": "10.2.69"
+    "typescript": "latest"
   }
 }
