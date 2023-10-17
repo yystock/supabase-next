@@ -4,6 +4,8 @@ import { cookies } from "next/headers";
 import type { Database } from "@/lib/database.types";
 import AccountForm from "@/components/account/AccountForm";
 
+export const dynamic = "force-dynamic";
+
 export default async function Account() {
   const supabase = createServerComponentClient<Database>({ cookies });
 
