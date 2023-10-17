@@ -1,5 +1,6 @@
-import log from "@/lib/logger";
 import { headers } from "next/headers";
+// import log from "@/lib/logger";
+
 export const metadata = {
   title: "404: Not Found",
 };
@@ -7,7 +8,7 @@ export const metadata = {
 const NotFound = () => {
   const headersList = headers();
   const referer = headersList.get("referer");
-  log.error("404: Not Found " + referer);
+  console.error("404: Not Found " + referer);
 
   return (
     <div className="p-4 max-w-3xl mx-auto text-center items-center">
