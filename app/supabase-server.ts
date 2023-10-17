@@ -3,7 +3,10 @@ import { cookies } from "next/headers";
 
 export const dynamic = "force-dynamic";
 
-export const createServerSupabaseClient = () => createServerComponentClient<Database>({ cookies });
+export const createServerSupabaseClient = () => {
+  const cookieStore = cookies();
+  return createServerComponentClient<Database>({ cookies: () => cookieStore });
+};
 
 export async function getSession() {
   const supabase = createServerSupabaseClient();
